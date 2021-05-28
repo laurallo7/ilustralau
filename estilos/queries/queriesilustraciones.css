@@ -1,0 +1,13 @@
+ @media screen and (max-width:480px) { 
+
+#s1 {
+padding-top: 15% !important}
+
+.introduccion {
+    padding: 0 50px;
+}
+.articulo {
+    width: 90% !important;
+ }
+ img.img1 {
+     width: 90% !important;}
