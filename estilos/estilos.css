@@ -8,8 +8,8 @@
 @font-face{
    font-family: 'grouch';
   src: url('../fonts/itc-grouch.otf') format('opentype');
-   src: url('itc-grouch.woff2') format('woff2'),
-         url('itc-grouch.woff') format('woff'),
+   src: url('../fonts/itc-grouch.woff2') format('woff2'),
+         url('../fonts/itc-grouch.woff') format('woff'),
          url('../fonts/itc-grouch.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
