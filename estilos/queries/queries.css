@@ -26,9 +26,10 @@
     color: #b8bede;
 }
 
-#logo{
-  display: none
- }
+
+li.lilogo {
+    display: none !important;
+}
 .textlogo {
     display: block;
     font-family: 'Reikna';
