@@ -53,6 +53,7 @@ li.lilogo {
     width: 100%;
     position: absolute;
     background: #fff4eb;
+    display: none;
 opacity: 0;
     transition: opacity 0.2s linear 0.2s;
 }
@@ -101,13 +102,15 @@ bottom: -0.5em;}
 
 
 input:checked ~.nav1{
+  display: block;
 opacity: 100;
  transition: opacity 0.2s linear 0.2s;
 }
 
 
 .social-icons {
-    padding-left: 0
+    padding-left: 0;
+   
 }
 
 .redesmenu{
