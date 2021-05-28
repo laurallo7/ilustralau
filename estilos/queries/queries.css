@@ -16,7 +16,7 @@
     color: #b8bede;
     text-decoration: none;
     font-family: 'roboto' !important;
-    font-size: 1rem;
+    font-size: 1rem !important;
     display: inline-block;
 }
 .idiom{
@@ -62,7 +62,9 @@ text-align: center;
 width: 100%;
 }
 
-
+.ul1 a{
+  font-size: 3rem
+}
 
 /*PARA CREAR LAS LÍNEAS DEL MENÚ HAMBURGUESA*/
 .classlabel{
