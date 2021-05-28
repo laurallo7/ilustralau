@@ -1,0 +1,112 @@
+
+.cate1{
+	color: #e3ae7d !important
+}
+#s1{
+     text-align: center;
+    padding-top: 15%;
+    padding-bottom: 100px;
+    height: auto;
+    margin: 0 auto;
+    width: 80%
+}
+.imagen {
+    width: 48%;
+}
+
+
+
+.contentinput {
+    max-width: 76%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+.infoinput {
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+.cabe {
+    font-family: 'Reikna';
+    font-size: 5rem;
+    color: #b8bede;
+        font-weight: normal;
+}
+/*+++++++++++++++++++++++++++++ botones ++++++++*/
+.saber{
+  list-style: none;
+  text-decoration: none;
+    color: #e3ae7d;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 1px 30px;
+    border-radius: 50px;
+    border: solid 1px #e3ae7d;
+        transition: background  0.5s linear 0.1s;
+        margin: 100px}
+
+
+
+.saber:hover{
+  background: #e3ae7d;
+  color: #fff4eb;
+ transition: background 0.5s linear 0.1s}
+
+
+
+
+ /*+++++++++++++++++++++++++++++ Esto es para las ventanas de información ++++++++*/
+
+#s1 img{
+max-width: 30%;
+padding-top: 30px;
+display: inline-block;
+}
+
+
+.divinforma{
+  width: 50%;
+  display: inline-block;
+
+}
+
+
+
+.informa {
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+  
+
+
+
+/*+++++++++++++++++++++++++++++ Edición de la barra de tamaño ++++++++*/
+input[type="range"]{
+  width: 70px;
+  appearance: none;
+
+    height: 1.5rem;
+    background-color: #b8bede;
+    border: 11px solid #fff4eb;
+    border-radius: 15rem;
+    cursor: pointer;
+   
+
+ 
+  }
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #b8bede;;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff4eb;
+  cursor: pointer;
+}​
+  
+}
+
+

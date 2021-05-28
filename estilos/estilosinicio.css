@@ -1,0 +1,57 @@
+.text1 {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+font-size: 50px;
+
+   font-family: 'Reikna';
+   max-width:350px;
+   margin: 0 auto;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+#s1{
+ background-image: url(../images/inicio/inicio2.png);
+ background-size: cover; 
+height:100vh; 
+
+background-position: center top;
+
+}
+.s1div { 
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 150px 150px 0 150px
+
+ }
+#s1 p {
+    color: black;
+    font-weight: 200;
+}
+ #s1 a{
+   text-decoration: none;
+   list-style: none;
+   color:black;
+   font-size: 28px;
+      font-family: 'Reikna';
+       transition: color 0.5s linear 0.1s;
+ }
+  #s1 a:hover, #s1 a:active{
+   color: #e3ae7d;
+   transition: color 0.5s linear 0.1s;
+ }
+ 

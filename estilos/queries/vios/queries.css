@@ -1,0 +1,103 @@
+ @media screen and (max-width:360px) { 
+ header {
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    background-color: #fff4eb;
+}
+ .idioma{
+	display: none
+}
+.idiom a{
+    color: #b8bede;
+    text-decoration: none;
+    font-family: 'roboto' !important;
+    font-size: 1rem;
+    display: inline-block;
+}
+.idiom{
+	color:#b8bede;
+}
+.idiomap {
+    color: #b8bede;
+}
+
+.ul1 li {
+display: block;
+float: none;
+text-align: center;
+width: 100%;
+}
+ 
+li.lilogo {
+    display: none;
+}
+
+#logo{
+	display: none
+}
+.nav1 {
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    background: #fff4eb;
+    opacity: 0;
+    transition: opacity 0.2s linear 0.2s;
+}
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+      width: 57px
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #b8bede;
+    stroke-width: 2.5px;s
+  stroke-linecap:round;
+}
+
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
+
+input:checked ~.nav1{
+opacity: 100;
+ transition: opacity 0.2s linear 0.2s;
+}
+.compra {
+    float: right;
+    padding-right: 30px;
+    margin-top: 22px;}
+}
+
+
+.logomovil {
+    display: block;
+    width: 22%;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+.divimglogomovil{
+	position: absolute;
+}
