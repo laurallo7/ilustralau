@@ -7,14 +7,14 @@
     padding-top: 15%;
     padding-bottom: 100px;
     height: auto;
-    margin: 0 auto;
-    width: 80%
 }
 .imagen {
     width: 48%;
 }
 
-
+.content{
+max-width: 80%;
+margin: 0 auto;}
 
 .contentinput {
     max-width: 76%;
@@ -31,33 +31,10 @@
     color: #b8bede;
         font-weight: normal;
 }
-/*+++++++++++++++++++++++++++++ botones ++++++++*/
-.saber{
-  list-style: none;
-  text-decoration: none;
-    color: #e3ae7d;
-
-    font-family: 'Roboto';
-    font-weight: 300;
-    padding: 1px 30px;
-    border-radius: 50px;
-    border: solid 1px #e3ae7d;
-        transition: background  0.5s linear 0.1s;
-        margin: 100px}
+/*+++++++++++++++++++++++++++++ Esto es para las ventanas de información ++++++++*/
 
 
-
-.saber:hover{
-  background: #e3ae7d;
-  color: #fff4eb;
- transition: background 0.5s linear 0.1s}
-
-
-
-
- /*+++++++++++++++++++++++++++++ Esto es para las ventanas de información ++++++++*/
-
-#s1 img{
+.s1img{
 max-width: 30%;
 padding-top: 30px;
 display: inline-block;
@@ -79,12 +56,27 @@ display: inline-block;
     padding-bottom: 100px;
 
 }
+.saber{
+  list-style: none;
+  text-decoration: none;
+    color: #e3ae7d;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 1px 10px;
+    border-radius: 50px;
+    border: solid 1px #e3ae7d;
+        transition: background  0.5s linear 0.1s
+}
+.saber:hover{
+  background: #e3ae7d;
+  color: #fff4eb;
+ transition: background 0.5s linear 0.1s
+}
+
   
-
-
-
-/*+++++++++++++++++++++++++++++ Edición de la barra de tamaño ++++++++*/
 input[type="range"]{
+
   width: 70px;
   appearance: none;
 
@@ -107,6 +99,6 @@ input[type="range"]{
   cursor: pointer;
 }​
   
-}
+
 
 
