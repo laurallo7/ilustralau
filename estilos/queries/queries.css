@@ -29,14 +29,16 @@
 #logo{
   display: none
  }
-.textlogo{
-  display: block;
+.textlogo {
+    display: block;
     font-family: 'Reikna';
     font-size: 2rem;
-    margin-top: 13px;
+    margin: 0 auto;
     color: #b8bede;
-    text-decoration: none
-  }
+    text-decoration: none;
+    width: 30%;
+    padding-top: 13px;
+}
 
   .compra {
     float: right;
