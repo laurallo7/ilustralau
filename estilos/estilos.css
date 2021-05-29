@@ -133,11 +133,7 @@ body {
 
 
 /*++++++++++++++++++FOOTER++++++++++++++++++*/
-footer {
-  margin-top: -48px;
-  width: 100%;
-  padding: 0 60px
-}
+
 .contenidolegal, .redes, .copyright{
   display: inline-block;
 width: 33%

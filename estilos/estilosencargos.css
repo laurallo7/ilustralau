@@ -4,9 +4,8 @@
 padding-top: 13%;
     height: auto;
 }
-input{
-	display: block !important
-}
+#idinput{
+	display: none }
 
 .formulario{
 	font-family: 'Reikna';
@@ -84,18 +83,18 @@ font-weight: 100;
 .botones, .radiobotones{
   list-style: none;
   text-decoration: none;
-    color: #e3ae7d;
+    color: #b8bede;
 background: none;
     font-family: 'Roboto';
     font-weight: 300;
     padding: 1px 10px;
     border-radius: 50px;
-    border: solid 1px #e3ae7d;
+    border: solid 1px #b8bede;
         transition: background  0.5s linear 0.1s;
         margin: 20px}
         
 .radiobotones:hover{
-    background: #e3ae7d;
+    background: #b8bede;
   color: #fff4eb;
  transition: background 0.5s linear 0.1s
 }
@@ -197,3 +196,7 @@ border: solid 1px #e3ae7d;
   background: #fff4eb;
   color: #e3ae7d;
  transition: background 0.5s linear 0.1s}
+
+ footer{
+ 	    margin-top: 100px;
+ }

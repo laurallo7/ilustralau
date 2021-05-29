@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="estilos/estilos.css">
 <link rel="stylesheet" href="estilos/estilosencargos.css">
 <link rel="stylesheet" href="estilos/queries/queries.css">
+<link rel="stylesheet" href="estilos/queries/queriesencargos.css">
 
 </head>
 
@@ -191,9 +192,9 @@
   <h1 class="cabe"> Encargos personalizados </h1>
 
   <p class="textointroduccion"> Si ya sabes todo para encargarme tu ilustración personalizada es hora de rellenar este formulario y decirme todo. 
-    Si tienes dudas quizas estos apartados de ayuden y si aun sigues tenido enviame un correo a este mail  <b>desing.ilustralau@gmail.com</b></p>
+    Si tienes dudas quizas estos apartados de ayuden y si aun sigues teniendo enviame un correo a este mail <b>desing.ilustralau@gmail.com</b></p>
 <div class="boton">
- <a href="#precios" class="botones">  Información de precios y métodos de pago</a> 
+ <a href="#precios" class="botones">  Precios y métodos de pago</a> 
  <a href="#consejos" class="botones">  Consejos para elegir la mejor foto </a> 
   <a href="#envios" class="botones">  Formas de envío </a> 
 </div>
@@ -224,9 +225,9 @@
    <div class="estilosinput">
   <p class="tituloinput">¿Qué estilo de dibujo has elegido?   </p> <br>
   <div class="estilosbotones">
- <p><input id="radio" type="radio" name="estilos" value="illustrator"> <label for="radio" class="radiobotones" > illustrator </label> </p>
-    <p>  <input type="radio" name="estilos" value="Procreate"> Procreate </p>
-    <p> <input type="radio" name="estilos" value="Colores"> Colores planos </p>
+ <input id="illustrator" type="radio" name="estilos" value="illustrator"> <label for="radio" class="radiobotones" > illustrator </label>
+   <input id="procreate" type="radio" name="estilos" value="Procreate"> <label for="procreates" class="radiobotones" >Procreate </label>
+   <input id="color" type="radio" name="estilos" value="Colores"><label for="color" class="radiobotones" > Colores planos </label>
 </div>
 </div>
 
@@ -327,6 +328,37 @@ Suelo añadir un color que combine bien, que ese sería gratis, pero también es
   
 </footer>
 
+
+<script type="text/javascript" language="javascript">
+    var illustrator=document.getElementById('illustrator');
+   illustrator.addEventListener('click', click);
+    var imag=document.getElementsByClassName('imagen');
+    console.log(imag);
+
+    
+    
+  
+    function tirado(){
+      if (tirador.value==0){
+      for(var i=0; i<imag.length; i++){
+      imag[i].style.width="25%";}
+      }
+      else if (tirador.value==1){
+      for(var i=0; i<imag.length; i++){
+      imag[i].style.width="48%";}
+
+      } 
+      else {
+      for(var i=0; i<imag.length; i++){
+      imag[i].style.width="100%";}
+      }
+    }
+    
+      
+      
+      
+    
+  </script>
 
 
 

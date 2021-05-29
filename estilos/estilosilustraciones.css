@@ -4,7 +4,7 @@
 #s1{
  background-image: url(../images/ilustraciones/fondo2.png);
  background-size: cover; 
-height: calc(100vh); 
+height: 100vh; 
 background-position: center top;
 text-align: center;
 padding-top: 100px;}
@@ -56,3 +56,5 @@ transition: width 0.5s ease 0.1s}
 .estilos a:hover .ilustraciones{
 	width: 230px;
 	transition: width 0.5s ease 0.1s;}
+
+  
