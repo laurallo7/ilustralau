@@ -1,0 +1,28 @@
+ @media screen and (max-width:1199px){ 
+      .saber{
+        margin: 30px;
+        display: block;}
+ }
+  @media screen and (max-width:768px){ 
+  	.s1img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+  	.cabe {
+    line-height: 38px;
+    padding-bottom: 30PX;
+}
+
+.informa {
+ 
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.divinforma {
+    width: 90%;
+
+}
+  }

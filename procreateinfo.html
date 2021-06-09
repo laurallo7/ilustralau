@@ -23,6 +23,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="estilos/estilos.css">
 <link rel="stylesheet" href="estilos/estilosdeestilos.css">
+<link rel="stylesheet" href="estilos/queries/queries.css">
+<link rel="stylesheet" href="estilos/queries/querieinfoestilos.css">
 
 </head>
 
@@ -186,19 +188,32 @@
   </div>
 </header>
 
-</header>
-
 <section id="s1">
-  <h1 class="cabe"> Estilo procreate </h1>
-<p> 
-</p>
+  
+
+    <div class="centrado">
+  <img class="s1img" src="images/ilustraciones/procreateinfo.png" alt="Foto estilo illustrator">
+  <div class="divinforma">
+   <h1 class="cabe"> Estilo procreate </h1>
+      
+      <p class="informa"> 
+
+
+Este estilo es en dibujo digital con el Appel pencil. 
+      <br> <br>
+     Este sin duda es mi estilo favorito y el que más disfruto haciendo.</p>
 
 
 
-  <div class="botones">
-  <a class="saber"> Hacer un encargo</a>
-  <a class="saber"> Ver ejemplos de este estilo </a>
-</div></section>
+     <a href="encargos.html" class="saber"> Hacer un encargo</a>
+     <a href="illustrator.html" class="saber"> Ver ejemplos de este estilo </a>
+   </div>
+</div>
+
+
+
+
+</section>
 
 
 <footer>
@@ -222,37 +237,6 @@
   
 </footer>
 
-
-
-
-<script type="text/javascript" language="javascript">
-    var tirador=document.getElementById('tirador');
-    tirador.addEventListener('input', tirado);
-    var imag=document.getElementsByClassName('imagen');
-    console.log(imag);
-
-    
-    
-  
-    function tirado(){
-      if (tirador.value==0){
-      for(var i=0; i<imag.length; i++){
-      imag[i].style.width="25%";}
-      }
-      else if (tirador.value==1){
-      for(var i=0; i<imag.length; i++){
-      imag[i].style.width="48%";}
-
-      } 
-      else {
-      for(var i=0; i<imag.length; i++){
-      imag[i].style.width="100%";}
-      }
-    }
-    
-      
-      
-      
     
   </script>
 </body>

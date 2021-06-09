@@ -4,19 +4,28 @@
 	width: 100%
 }
 
-}
+
 #s1 a{
-	    font-size: 34px !important;
+font-size: 34px !important;
 }
 
 .ilustraciones {
     width: 40%; }
 
-footer {
-    text-align: center;
-    margin-top: 200px;
+
+.contenidolegal {
+    text-align: left;
 }
 
+#s1{
+	padding-top: 100px;
+	height: auto;
+}
 
-
+footer{
+	padding-top: 150px
+}
+.contenidolegal {
+    text-align: center;
+}
 }

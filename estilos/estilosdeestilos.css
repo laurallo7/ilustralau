@@ -4,10 +4,14 @@
 }
 #s1{
      text-align: center;
-    padding-top: 15%;
+    padding-top: 13%;
     padding-bottom: 100px;
-    height: auto;
-}
+
+ background-image: url(../images/ilustraciones/fondo2.png);
+ background-size: cover; 
+height: auto; 
+background-position: center top;
+text-align: center;}
 .imagen {
     width: 48%;
 }
@@ -32,11 +36,13 @@ margin: 0 auto;}
         font-weight: normal;
 }
 /*+++++++++++++++++++++++++++++ Esto es para las ventanas de información ++++++++*/
-
+footer{
+    margin-top: -48px;
+    width: 100%;
+    padding: 0 60px;}
 
 .s1img{
-max-width: 30%;
-padding-top: 30px;
+max-width: 35%;
 display: inline-block;
 }
 
@@ -54,13 +60,14 @@ display: inline-block;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 100px;
+    width: 60%
 
 }
 .saber{
   list-style: none;
   text-decoration: none;
     color: #e3ae7d;
-
+    margin: 0 30px;
     font-family: 'Roboto';
     font-weight: 300;
     padding: 1px 10px;
