@@ -1,5 +1,5 @@
 .cate1{
-	color: #e3ae7d !important;}
+	color:#bbc1df  !important;}
 
 #s1{
  background-image: url(../images/ilustraciones/fondo2.png);
@@ -15,13 +15,15 @@ padding-top: 100px;
    list-style: none;
    color:black;
    font-size: 28px;
-      font-family: 'Reikna';
+      font-family: 'grouch';
        transition: color 0.5s linear 0.1s;
 }
 
 h1 {
     font-weight: 200;
-  padding-top: 5%
+  padding-top: 5%;
+  max-width: 60%;
+  margin: 0 auto
 }
 .esti{
 
@@ -43,11 +45,9 @@ transition: width 0.5s ease 0.1s}
 .estilos p{
 	display: block;
 }
-.estilos a{
-	font-size: 52px !important
-}
+
 .estilos a:hover{
-	color: #b8bede !important
+	color: #bbc1df !important
 }
 .ilustraciones:hover{
 	width: 230px;

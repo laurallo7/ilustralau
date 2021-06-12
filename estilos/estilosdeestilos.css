@@ -49,7 +49,7 @@ display: inline-block;
 
 .divinforma{
   width: 50%;
-  display: inline-block;
+float: right;
 
 }
 
@@ -59,7 +59,7 @@ display: inline-block;
     font-weight: 100;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 100px;
+  
     width: 60%
 
 }

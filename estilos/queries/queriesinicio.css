@@ -1,4 +1,4 @@
- @media screen and (max-width:768px){ 
+ @media screen and (max-width:880px){ 
   .s1div {
  
     max-width: 80%;
@@ -23,6 +23,7 @@
 }
 #s1{
   background-position: left;
+  height: auto;
 }
 #s1 a {
     font-size: 2rem;}
