@@ -35,7 +35,7 @@ input#idinput {
   display: none
 }
 body {
-  background-color: #fff4eb;
+  background-color: #fcf7f2;
 }
 #inputmenu{
   display: none
@@ -90,30 +90,30 @@ body {
 
 .ul1 a {
   display: block;
-  color: #efd8be;
+  color: #000000;
   text-decoration: none;
   text-align: center;
- font-family: 'Reikna';
+ font-family: 'grouch';
   line-height: 70px;
-  font-size: 2rem;
+  font-size: 1.2rem;
      transition: color 0.5s linear 0.1s;
 
  
 }
  .ul1 a:hover{
- 	 color: #e3ae7d;
-   transition: color 0.8s linear 0.2s;
+ 	 color: #bbc1df;
+   transition: color 0.8s linear 0.1s;
  }
 
 #logo{
     max-height: 96px;
     transition: fill 0.5s linear 0.1s;
     max-width: 100px;
-      fill: #b8bed7;
+
       height: 85px}
 
-#logo:hover, #logo:active{
- fill:#e3ae7d;
+#logo:hover{
+ fill:#bbc1df;
  transition: fill 0.5s linear 0.2s;
 }
 

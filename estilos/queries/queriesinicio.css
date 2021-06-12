@@ -6,7 +6,6 @@
 
 }
 .text1 {
-max-width: 253px;
     font-size: 36px;}
 
    .redes p{
@@ -21,6 +20,9 @@ max-width: 253px;
 .redes {
 
     display: block;
+}
+#s1{
+  background-position: left;
 }
 #s1 a {
     font-size: 2rem;}
