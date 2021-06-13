@@ -7,7 +7,7 @@
 font-size: 50px;
 
    font-family: 'Reikna';
-   max-width:180px;
+   max-width:350px;
    margin: 0 auto;
 }
 
@@ -35,30 +35,26 @@ background-position: center top;
   max-width: 70%;
   margin: auto;
   text-align: center;
-    padding: 150px 100px 0 100px;
+  padding-top: 150px;
+  height: auto
 
  }
 #s1 p {
     color: black;
-    font-weight: 200;
-       font-size: 1.3rem;
+   font-weight: 300;
+         font-size: 1.2rem;
     line-height: 40px;
 }
  #s1 a{
    text-decoration: none;
    list-style: none;
    color:black;
-   font-size: 2.3rem;
-      font-family: 'Reikna';
+   font-size: 1.2rem;
+        font-family: 'grouch';
        transition: color 0.5s linear 0.1s;
  }
-  #s1 a:hover, #s1 a:active{
-   color: #e3ae7d;
+  #s1 a:hover{
+   color: #bbc1df;
    transition: color 0.5s linear 0.1s;
  }
- footer {
-  margin-top: -48px;
-  width: 100%;
-  padding: 0 60px
-}
  

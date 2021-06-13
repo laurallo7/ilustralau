@@ -6,7 +6,8 @@
 
 }
 .text1 {
-    font-size: 36px;}
+    font-size: 3rem;
+    max-width: 90%}
 
    .redes p{
     display: none
@@ -26,7 +27,7 @@
   height: auto;
 }
 #s1 a {
-    font-size: 2rem;}
+    font-size: 1.3rem;}
 
 #s1 p {
  

@@ -1,15 +1,41 @@
- @media screen and (max-width:837px) { 
+ @media screen and (max-width:962px) {
+.saber {
+    display: block;
+    margin-top: 26px;
+}
+.s1img {
+    max-width: 44%;}
+}
+
+ @media screen and (max-width:700px) {
+
+.divinforma {
+    width: 90%;
+    margin: 0 auto;
+    float: none;}
+  #s1{
+  	background-position: right top;
+  }
+
+  footer {
+    margin-top: -50px;}
+ 	/*
+
+ #si{
+ 	height: auto
+ } 
   .cabe {
     font-size: 3rem;
     padding-bottom: 30px;
+        line-height: 40px;
 }
-.saber{
-  margin: 0;
-  font-size: 0.8rem;
-      padding: 1px 11px;
 
-}
+.divinforma {
+    width: 80%;
+    margin: 0 auto;}
+
 .content{
 	width: 90%
 }
+*/
 }

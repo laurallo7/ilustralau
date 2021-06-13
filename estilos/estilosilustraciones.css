@@ -1,36 +1,37 @@
-.cate1{
-	color:#bbc1df  !important;}
 
+.cate1{
+	color: #bbc1df !important;}
+.compra{
+  margin-top: 25px !important
+}
 #s1{
  background-image: url(../images/ilustraciones/fondo2.png);
  background-size: cover; 
-height: 100vh; 
+height: auto; 
 background-position: center top;
 text-align: center;
-padding-top: 100px;
- }
+padding-bottom: 100px;}
 
 #s1 a{
   text-decoration: none;
    list-style: none;
    color:black;
    font-size: 28px;
-      font-family: 'grouch';
+      font-family: 'Reikna';
        transition: color 0.5s linear 0.1s;
 }
 
-h1 {
-    font-weight: 200;
-  padding-top: 5%;
-  max-width: 60%;
-  margin: 0 auto
+.textoilustraciones {
+    font-weight: 300;
+       line-height: 30px;
+  padding-top: 15%
 }
 .esti{
 
 text-align: center;
 }
 .ilustraciones{
-	width: 250px !important;
+	width: 250px;
 	display: block;
 margin: 0 auto;
 transition: width 0.5s ease 0.1s}
@@ -45,9 +46,11 @@ transition: width 0.5s ease 0.1s}
 .estilos p{
 	display: block;
 }
-
+.estilos a{
+	font-size: 52px !important
+}
 .estilos a:hover{
-	color: #bbc1df !important
+	color: #b8bede !important
 }
 .ilustraciones:hover{
 	width: 230px;
@@ -55,11 +58,5 @@ transition: width 0.5s ease 0.1s}
 }
 
 .estilos a:hover .ilustraciones{
-	width: 230px !important;
+	width: 230px;
 	transition: width 0.5s ease 0.1s;}
-
-footer{
-    margin-top: -48px;
-    width: 100%;
-    padding: 0 60px;}
-  

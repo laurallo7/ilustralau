@@ -1,0 +1,202 @@
+.cate3{
+	color: #bbc1df !important;}
+  .compra{
+  margin-top: 25px !important
+}
+#s1 {
+padding-top: 13%;
+  height: auto;
+  max-width: 80%;
+  margin: 0 auto
+}
+
+
+#idinput{
+  display: none!important
+}
+input{
+	display: block !important
+}
+.introduccion{
+  padding-bottom: 50px
+}
+.formulario{
+	font-family: 'gounch';
+	padding-top: 10px;
+	font-size: 2rem;
+	color: #bbc1df;
+}
+.cabe, .textodibujos{
+  max-width: 80%;
+  margin:0 auto;
+    line-height: 25px;
+    font-weight: 300;
+	text-align: center;
+  color: black;
+}
+.cabe {
+    font-family: 'grouch';
+    padding-bottom: 30px;
+    font-size: 3rem;
+    color: black;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+
+form{
+	width: 70%;
+	margin: 0 auto ;
+	box-shadow: 0px 0px 10px #bbc1df;
+	border-radius: 15px;
+	padding: 10px 30px 50px 30px
+
+}
+
+.inputcontenedor input {
+    background: #bbc1df38;
+    width: 100%;
+    border:0;
+    font-size: 24px;
+    border-radius: 20px
+ 
+}
+.inputcontenedor textarea{
+	background: #bbc1df38;
+    width: 100%;
+    border:0;
+    font-size: 24px;
+    border-radius: 20px;
+    max-height: 100px;
+    max-width: 100%
+}
+.tituloinput{
+	color: #bbc1df;
+	font-family: 'Roboto';
+	font-weight: 300;
+	padding:  30px 0 5px 0
+}
+.estilosinput p{
+	display: inline-block;
+}
+
+.archivo {
+font-size: 0.9rem;
+font-weight: 100;
+}
+
+.radiobotones{
+  list-style: none;
+  text-decoration: none;
+    color: #bbc1df;
+background: none;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 1px 10px;
+    border-radius: 50px;
+    border: solid 1px #bbc1df;
+        transition: background  0.5s linear 0.1s;
+        margin: 20px}
+        
+.radiobotones:hover{
+    background: #bbc1df;
+  color: #fff4eb;
+ transition: background 0.5s linear 0.1s
+}
+.radiobotones:active{
+    background: #bbc1df;
+  color: #fff4eb;
+ transition: background 0.5s linear 0.1s
+}
+
+
+
+.file {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#fichero{
+  display: none !important;
+}
+
+.fileboton{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 10px;
+    width: 31%;
+    transition: background 0.5s linear 0.1s;
+    background-color: #bbc1df;
+    cursor: pointer;
+    color: #ffeede;
+    font-family: 'Roboto';
+    font-weight: 100;
+    padding: 15px;
+
+   border:1px solid #bbc1df}
+
+.fileboton:hover{
+background: #fff4eb;
+  color:#bbc1df ;
+  border:1px solid #bbc1df;
+ transition: background 0.5s linear 0.1s
+}
+
+
+ .textoinformacion{
+ 	width: 80%;
+ 	margin: 0 auto
+
+ }
+
+#consejos p{
+	font-weight: 100;
+	line-height: 20px
+}
+
+#precios p{
+	font-weight: 100;
+	line-height: 20px;
+
+}
+#envios p{
+	font-weight: 100;
+	line-height: 20px;
+
+}
+
+
+.botonenviar{
+  list-style: none;
+  text-decoration: none;
+    color:  #fff4eb;
+background: #bbc1df;
+font-size: 1.3rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    width: 100%;
+    padding: 2px 20px;
+    border-radius: 50px;
+    border: none;
+  border:1px solid #bbc1df;
+        transition: background  0.5s linear 0.1s;
+        margin: 30px auto 0 auto}
+
+
+
+.botonenviar:hover{
+border: solid 1px #bbc1df;
+  background: #fff4eb;
+  color: #bbc1df;
+ transition: background 0.5s linear 0.1s}
+
+
+ .texto{
+  padding-top:150px;
+  margin: 0 auto;
+  max-width: 80%;
+text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+}

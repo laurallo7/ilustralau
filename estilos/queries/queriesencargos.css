@@ -1,36 +1,7 @@
- @media screen and (max-width:768px) { 
-  .cabe {
-    font-size: 3rem;
-    padding-bottom: 30px;
-    line-height: 30px
-}
-body {
-  
-    padding-bottom: 0;
-}
-.botones{
-    margin-top: 20px;
-    display: block;
-    width: 90%;}
-
-form {
-    width: 90%;}
-}
-.fileboton {
-    width: 88%;}
-
-.radiobotones {
-    margin: 0;
-    display: block;
-    width: 80%;
-    text-align: center;}
-
-.estilosbotones label{
-    margin: 12px auto;
-}
-#illustrator, #procreate, #color {
-    display: none;
+ @media screen and (max-width:930px) { 
+ 
+.opcion{
+    width: 80%
 }
 
-
-    }
+ }

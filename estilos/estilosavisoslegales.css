@@ -1,3 +1,7 @@
+.compra{
+  margin-top: 25px !important
+}
+
 section#s1 {
     width: 80%;
     margin: 0 auto;
@@ -16,7 +20,7 @@ h1 {
     padding: 70px 0 10px 30px;
    
     font-weight: 400;
-    color: #b8bede;
+    color: black;
 }
 
 #s1 p{

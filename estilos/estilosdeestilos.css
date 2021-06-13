@@ -1,17 +1,16 @@
 
 .cate1{
-	color: #e3ae7d !important
+  color: #bbc1df !important
 }
 #s1{
-     text-align: center;
-    padding-top: 13%;
-    padding-bottom: 100px;
-
- background-image: url(../images/ilustraciones/fondo2.png);
+ text-align: center;
+padding-top: 13%;
+padding-bottom: 20%;
+ background-image: url(../images/fondo5.png);
  background-size: cover; 
-height: auto; 
 background-position: center top;
 text-align: center;}
+
 .imagen {
     width: 48%;
 }
@@ -30,10 +29,12 @@ margin: 0 auto;}
     padding-bottom: 1%;
 }
 .cabe {
-    font-family: 'Reikna';
-    font-size: 5rem;
-    color: #b8bede;
+    font-family: 'grouch';
+    padding-bottom: 30px;
+    font-size: 3rem;
+    color: black;
         font-weight: normal;
+        line-height: 40px
 }
 /*+++++++++++++++++++++++++++++ Esto es para las ventanas de información ++++++++*/
 footer{
@@ -52,36 +53,46 @@ display: inline-block;
 float: right;
 
 }
+.centrado{
+  max-width: 80%;
+  margin: 0 auto
+  
+}
 
-
-
+.botones{
+  margin-top:30px 
+}
 .informa {
     font-weight: 100;
     margin: 0 auto;
     text-align: center;
   
-    width: 60%
+    width: 90%
 
 }
 .saber{
   list-style: none;
   text-decoration: none;
-    color: #e3ae7d;
+    color: #bbc1df;
     margin: 0 30px;
     font-family: 'Roboto';
     font-weight: 300;
     padding: 1px 10px;
     border-radius: 50px;
-    border: solid 1px #e3ae7d;
+    border: solid 1px #bbc1df;
         transition: background  0.5s linear 0.1s
 }
 .saber:hover{
-  background: #e3ae7d;
+  background: #bbc1df;
   color: #fff4eb;
  transition: background 0.5s linear 0.1s
 }
 
   
+  .contenidolegal, .redes, .copyright {
+    width: 29% !important;
+}
+
 input[type="range"]{
 
   width: 70px;
@@ -89,7 +100,8 @@ input[type="range"]{
 
     height: 1.5rem;
     background-color: #b8bede;
-    border: 11px solid #fff4eb;
+    border: 11px solid #fcf7f2;
+};
     border-radius: 15rem;
     cursor: pointer;
    

@@ -121,7 +121,7 @@ body {
 .compra {
   float: right;
   padding-right: 47px;
-  margin-top: -39px;
+  margin-top: -43px;
 
 }
 
@@ -133,7 +133,11 @@ body {
 
 
 /*++++++++++++++++++FOOTER++++++++++++++++++*/
-
+footer{
+      max-width: 70%;
+    margin: 0 auto;
+    margin-top: -40px;
+}
 .contenidolegal, .redes, .copyright{
   display: inline-block;
 width: 33%
