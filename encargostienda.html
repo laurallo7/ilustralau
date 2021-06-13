@@ -22,7 +22,7 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="estilos/estilos.css">
-<link rel="stylesheet" href="estilos/estilosencargos.css">
+<link rel="stylesheet" href="estilos/estilosencargosopciones.css">
 <link rel="stylesheet" href="estilos/queries/queries.css">
 <link rel="stylesheet" href="estilos/queries/queriesencargos.css">
 
@@ -78,69 +78,58 @@
   </div>
 
 </header>
-
-
-
-
 <section id="s1">
-
-  <p class="textoencargos"> Si te desplazas hasta abajo de esta venta puedes encontrar información sobre precios, envíos y tiempos de entrega. Si aun tienes dudas puedes escribirme a mi correo <b> desing.ilustralau@gmail.com </b>
+<div class="introduccion">
+  <p class="textodibujos"> Cuéntame tus ideas a través de este formuario para continuar creando.
 </p>
 
- <div class="opciones">
-    <div class="opcion">
-   <a href="encargosdibujos.html"> <img class="encargos" src="images/encargos/dibujos.png" alt="foto dibujos personalizados">
- Dibujos personalizados</a>
-  </div>
-     <div class="opcion">
-   <a href="encargostienda.html"> <img class="encargos" src="images/encargos/tienda.png" alt="foto dibujos personalizados">
- Arte sobre <br>textil</a>
-  </div></div>
-
-
-
-<div class="informacion">
-<div id="precios">
-     <p class="titulo"> Precios y métodos de pago</p>
-     <p>
-<br><b>Precios ilustraciones</b><br>
-
-El precio de los encargos varía según el número de personas que aparezcan en la fotografía, el estilo de dibujo y el diseño del fondo de la ilustración.
-<br><br>
-<b>Estilo illustrator:</b> 15€ la primera persona, y +10€ por cada persona añadida.<br>
-<b>Estilo procreate:</b> 15€ la primera persona, y +10€ por cada persona añadida.
-<br>
-<b>Estilo color plano:</b> 10€ la primera persona, y +3€ por cada persona añadida.
-<br><br>
-El coste del fondo varía de 10€ a 30€, dependiendo de la complejidad de este, con la excepción del fondo de un solo color, que no tendría coste.También está la opción de añadir un fondo de alguno de mis dibujos ya hecho por 10€. Puedes ver los diferentes fondos en mi apartado de ilustraciones
-<br><br><br>
-
-
-<b>Método de pago</b><br>
-El 50% del dinero se abonará antes de empezar el dibujo, mediante transferencia o bizum. Una vez pagado enviaré el boceto del dibujo para que el cliente se haga una idea de como quedaría la ilustración. En cuanto el dibujo esté terminado, y se haya dado el visto bueno, se terminará de abonar el resto del importe.
-</p>
 </div>
 
-<br><br><br><br>
-<div id="envios">
-     <p class="titulo"> Formas de envio </p>
-<br>
-     <p>Hay 2 formas de envío: mediante correo electrónico o por envío postal.
-     <br><br>
-<b>Vía correo electrónico: </b>este envío sería sin costes. Se enviaría el archivo de la ilustración en formato .jpg en alta calidad. Si lo quisieras imprimir tú mismo, te aconsejaría cómo hacerlo para mantener la máxima calidad.
-<br><br>
-<b>Vía correo postal: </b>El coste del envío varía dependiendo de si se desea hacer un seguimiento del pedido, que serían 5€, y el coste sin seguimiento, que serían 2€. Enviaría la ilustración impresa a un tamaño A4. </p></div>
 
-<br><br><br><br>
-<div id="tiempo">
-     <p class="titulo"> Tiempos de entrega </p><br>
 
-     <p>El tiempo de entrega puede variar dependiendo de la temporada y el producto que quieras.<br>
-Mínimo de una semana, más un máximo de 3 días que tarda en llegar el envío. Antes de hacer el encargo le informaré del tiempo estimado.</p>
+
+
+
+<form action=" " method="get">
+
+<div class="file">
+
+<input id="fichero" type="file" name="archivo" class="archivo" value="image/*">
+<label for="fichero" class="fileboton"> <i class="fas fa-cloud-upload-alt"></i> Sube la fotografía</label>
+ </div>
+
+
+   <div class="inputcontenedor">
+    <p class="tituloinput">¿Cómo te llamas? </p> 
+  <input type="text" name="nombre" size="40" class="formnombre"> 
+</div>
+
+   <div class="inputcontenedor">
+    <p class="tituloinput">Dime tu correo para poder comunicarme contigo</p>
+   <input type="text" name="nombre" size="40" class="formnombre">
+    </div>
+
+
+
+  
+
+<div class="inputcontenedor">
+<p class="tituloinput">Escríbeme y te contestaré lo antes posible</p>
+    <textarea name="" rows="10" cols="30"></textarea> 
+    <br/>
+</div>
+
+
+
+  <div class="divbotonenviar"> <input type="submit" class="botonenviar" value="Enviar"> </div>
+  
+
+</form>
+
+
 
 
 </section>
-
 
 
 
@@ -161,10 +150,6 @@ Mínimo de una semana, más un máximo de 3 días que tarda en llegar el envío.
 
     <div class="copyright"> <p>© Laura Llorens </p></div>
 </footer>
-
-
-
-
 
 
 </body>

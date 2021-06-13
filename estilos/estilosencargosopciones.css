@@ -3,13 +3,19 @@
   .compra{
   margin-top: 25px !important
 }
-#s1 {
-padding-top: 13%;
-  height: auto;
-  max-width: 80%;
-  margin: 0 auto
-}
 
+
+#s1{
+    height: auto;
+
+  margin: 0 auto;
+ text-align: center;
+padding-top: 15%;
+padding-bottom: 20%;
+ background-image: url(../images/fondo2.png);
+ background-size: cover; 
+background-position: center top;
+text-align: center;}
 
 #idinput{
   display: none!important
@@ -71,7 +77,7 @@ form{
     max-width: 100%
 }
 .tituloinput{
-	color: #bbc1df;
+	color: black;
 	font-family: 'Roboto';
 	font-weight: 300;
 	padding:  30px 0 5px 0
@@ -110,7 +116,8 @@ background: none;
 }
 
 
-
+#consejos {
+    padding-top: 50px;}
 .file {
     text-align: center;
     margin-top: 20px;
@@ -146,7 +153,8 @@ background: #fff4eb;
 
  .textoinformacion{
  	width: 80%;
- 	margin: 0 auto
+ 	margin: 0 auto;
+
 
  }
 
@@ -193,10 +201,10 @@ border: solid 1px #bbc1df;
 
 
  .texto{
-  padding-top:150px;
   margin: 0 auto;
   max-width: 80%;
 text-align: center;
     line-height: 25px;
     font-weight: 300;
+    padding-bottom: 50px
 }
