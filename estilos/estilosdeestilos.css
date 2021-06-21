@@ -1,7 +1,8 @@
 
-.cate1{
+.cate1, .cate5{
   color: #bbc1df !important
 }
+
 #s1{
  text-align: center;
 padding-top: 13%;
@@ -63,10 +64,10 @@ float: right;
   margin-top:30px 
 }
 .informa {
-    font-weight: 100;
+    font-weight: 200;
     margin: 0 auto;
     text-align: center;
-  
+  line-height: 30px;
     width: 90%
 
 }

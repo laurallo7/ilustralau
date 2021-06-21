@@ -1,0 +1,17 @@
+
+  @media screen and (max-width:1560px) {
+
+ 	.divinforma {
+    width: 100%;
+    padding: 50px 0;
+}
+ }
+
+
+
+  @media screen and (max-width:761px) {
+  	.s1img {
+    max-width: 60%;
+
+}
+ }

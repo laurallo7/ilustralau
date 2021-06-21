@@ -58,6 +58,7 @@ li.lilogo {
     display: none;
 opacity: 0;
     transition: opacity 0.2s linear 0.2s;
+        z-index: 1
 }
 .ul1 li {
 display: inline;
@@ -71,11 +72,16 @@ width: 100%;
 }
 
 /*PARA CREAR LAS LÍNEAS DEL MENÚ HAMBURGUESA*/
-.classlabel{
-   background: #fff4eb;
-   z-index: 1
+.classlabel{ 
+position: absolute;  /*para posicionar el botón en el header*/
+display: block;  /*para que funcione*/
+cursor: pointer;  /*para que aparezca el cursor al pasar por encima*/
+width: 44px;  /*medida de ancho*/
+height: 44px;  /*medida de alto*/
+background:#fcf7f2;  /*color de fondo*/
+left: 5px;  /*espacio por la derecha o izquierda*/
+top: 10px; /*espacio por arriba*/}
 
-}
 .classlabel span {     
   position: absolute;
     top: 0;
@@ -108,6 +114,12 @@ input:checked ~.nav1{
 opacity: 100;
  transition: opacity 0.2s linear 0.2s;
 }
+
+
+
+
+
+
 
 
 .social-icons {

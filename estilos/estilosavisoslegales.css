@@ -1,6 +1,4 @@
-.compra{
-  margin-top: 25px !important
-}
+
 
 section#s1 {
     width: 80%;
@@ -39,5 +37,6 @@ h1 {
 
 
 footer{
-  margin-bottom: 20px
+  padding-top:50px!important;
+
 }
