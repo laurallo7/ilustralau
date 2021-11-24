@@ -1,10 +1,18 @@
  @media screen and (max-width:880px){ 
   .s1div {
  
-    max-width: 80%;
+width: 80%;
     padding: 0
 
 }
+.centrado {
+    text-align: center;
+         margin-top: 0
+}
+.s1img {
+    width: 70% !important;
+      margin-top: 0}
+
 .text1 {
     font-size: 3rem;
     max-width: 90%}
@@ -18,10 +26,7 @@
     width: 100%;
     text-align: center;
 }
-.redes {
 
-    display: block;
-}
 #s1{
   background-position: left;
   height: auto;
@@ -35,6 +40,5 @@
     font-size: 1.3rem;
 }
 footer{
-      margin-top: 150px;
-}
+    margin-top: 25px;
 }
